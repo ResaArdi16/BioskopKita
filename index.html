@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioskop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="brand">Bioskop Kita</div>
+        <ul class="menu">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#film">Film</a></li>
+            <li><a href="#akan-tayang">Akan Tayang</a></li>
+            <li><a href="#makanan">Menu Makanan</a></li>
+            <li><a href="#promosi">Promo Spesial</a></li>
+        </ul>
+        <a href="login.html" class="login-btn">Login</a>
+    </nav>
+
+    <!-- section beranda-->
+    <section id="beranda">
+    <div class="movie-slider-container">
+        <!-- Slider Track -->
+        <div class="slider-track">
+            <!-- Slide 1 -->
+            <div class="slide" style="background-image: url('');">
+                <img src="poster/online.jpeg" alt="" class="image-online">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>NAMA FILM</h2>
+                        <h1>FILM</h1>
+                        <div class="movie-info">
+                            <span class="genre">GENRE</span>
+                            <span class="duration">Durasi</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn btn-primary">Tonton Trailer</button>
+                            <button class="btn btn-secondary">Beli Tiket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('');">
+                <img src="poster/online.jpeg" alt="" class="image-online">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>NAMA FILM</h2>
+                        <h1>FILM</h1>
+                        <div class="movie-info">
+                            <span class="genre">GENRE</span>
+                            <span class="duration">Durasi</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn btn-primary">Tonton Trailer</button>
+                            <button class="btn btn-secondary">Beli Tiket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('');">
+                <img src="poster/online.jpeg" alt="" class="image-online">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h2>NAMA FILM</h2>
+                        <h1>FILM</h1>
+                        <div class="movie-info">
+                            <span class="genre">GENRE</span>
+                            <span class="duration">Durasi</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn btn-primary">Tonton Trailer</button>
+                            <button class="btn btn-secondary">Beli Tiket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- auto/klik geser slide-->
+            <!-- Navigation Arrows -->
+            <div class="slider-nav">
+                <button class="nav-btn prev-btn">❮</button>
+                <button class="nav-btn next-btn">❯</button>
+            </div>
+            
+            <!-- Slide Indicators -->
+            <div class="slide-indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+            </div>
+
+    <!--section film-->
+    <section>
+        <h1 id="film" class="section-title">Film</h1>
+        <div class="movie-grid">
+            <!--film 1-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 2 -->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 3-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 4-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akan tayang -->
+    <section>
+        <h1 id="akan-tayang" class="section-title">Akan Tayang</h1>
+        <div class="movie-grid">
+            <!--film 5-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 6 -->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 7-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+            <!--film 8-->
+            <div class="movie-card">
+                <img src="poster/bioskop.jpeg" alt="Film" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="action-buttons">
+                        <a href="#" class="action-btn trailer-btn">Tonton Trailer</a>
+                        <a href="#" class="action-btn ticket-btn">Beli Tiket</a>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Nama Film</h3>
+                    <p class="movie-genre">Genre Film</p>
+                </div>
+            </div>
+    </section>
+    <!-- f&b -->
+    <section id="makanan">
+        <h1 class="section-title">Menu Makanan</h1>
+        <div class="menu-grid">
+            <!--makan 1-->
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="poster/popcorn.jpeg" alt="Popcorn">
+                </div>
+                <div class="menu-item-content">
+                    <h3 class="menu-item-title">Popcorn</h3>
+                    <p class="menu-item-description">Popcorn manis dengan rasa yang lezat, tersedia dalam ukuran regular dan large.</p>
+                    <div class="menu-item-footer">
+                        <span class="menu-item-price">Rp 15.000</span>
+                        <button class="add-to-cart">+ Beli</button>
+                    </div>
+                </div>
+            </div>
+            <!--makan 2-->
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="poster/popcorn.jpeg" alt="Popcorn">
+                </div>
+                <div class="menu-item-content">
+                    <h3 class="menu-item-title">Popcorn</h3>
+                    <p class="menu-item-description">Popcorn manis dengan rasa yang lezat, tersedia dalam ukuran regular dan large.</p>
+                    <div class="menu-item-footer">
+                        <span class="menu-item-price">Rp 15.000</span>
+                        <button class="add-to-cart">+ Beli</button>
+                    </div>
+                </div>
+            </div>
+            <!--makan 3-->
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="poster/popcorn.jpeg" alt="Popcorn">
+                </div>
+                <div class="menu-item-content">
+                    <h3 class="menu-item-title">Popcorn</h3>
+                    <p class="menu-item-description">Popcorn manis dengan rasa yang lezat, tersedia dalam ukuran regular dan large.</p>
+                    <div class="menu-item-footer">
+                        <span class="menu-item-price">Rp 15.000</span>
+                        <button class="add-to-cart">+ Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- promosi -->
+     <section class="promo-section" id="promosi">
+        <h2 class="section-title">Promo Spesial</h2>
+        <div class="promo-cards">
+            <!--promosi 1-->
+            <div class="promo-card">
+                <div class="promo-image">
+                    <img src="poster/promo.jpeg" alt="Weekend Special">
+                </div>
+                <div class="promo-content">
+                    <h3 class="promo-title">Weekend Special</h3>
+                    <p class="promo-duration">Berlaku setiap Sabtu & Minggu</p>
+                    <p class="promo-description">Diskon 30% untuk semua tiket film di hari Sabtu dan Minggu. Minimal pembelian 2 tiket.</p>
+                    <div class="promo-price">
+                        <span class="original-price">Rp 60.000</span>
+                        <span class="discounted-price">Rp 42.000</span>
+                    </div>
+                    <a href="" class="btn">Beli Sekarang</a>
+                </div>
+            </div>
+            <!--promosi 2-->
+            <div class="promo-card">
+                <div class="promo-image">
+                    <img src="poster/promo.jpeg" alt="Couple Package">
+                </div>
+                <div class="promo-content">
+                    <h3 class="promo-title">Couple Package</h3>
+                    <p class="promo-duration">Berlaku setiap hari</p>
+                    <p class="promo-description">Spesial untuk pasangan! Dapatkan 2 tiket + 2 minuman + 1 popcorn besar dengan harga spesial.</p>
+                    <div class="promo-price">
+                        <span class="original-price">Rp 150.000</span>
+                        <span class="discounted-price">Rp 99.000</span>
+                    </div>
+                    <a href="" class="btn">Beli Sekarang</a>
+                </div>
+            </div>
+            <!--promosi 3-->
+            <div class="promo-card">
+                <div class="promo-image">
+                    <img src="poster/promo.jpeg" alt="Student Discount">
+                </div>
+                <div class="promo-content">
+                    <h3 class="promo-title">Student Discount</h3>
+                    <p class="promo-duration">Berlaku Senin-Jumat</p>
+                    <p class="promo-description">Khusus pelajar dan mahasiswa, dapatkan diskon 40% dengan menunjukkan kartu pelajar yang berlaku.</p>
+                    <div class="promo-price">
+                        <span class="original-price">Rp 50.000</span>
+                        <span class="discounted-price">Rp 30.000</span>
+                    </div>
+                    <a href="" class="btn">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- footer -->
+    <footer>
+        ©2025 Nonton
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

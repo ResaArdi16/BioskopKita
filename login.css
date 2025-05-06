@@ -1,0 +1,141 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFF9C4;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 25px;
+  }
+  
+  .logo i {
+    font-size: 50px;
+    color: #FFD600;
+    margin-bottom: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .logo h1 span {
+    color: #FFD600;
+  }
+  
+  /* Login Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 15px;
+    color: #FFD600;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+    border: 2px solid #FFEB3B;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #FFC107;
+    box-shadow: 0 0 0 3px rgba(255, 213, 0, 0.2);
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.3s;
+  }
+  
+  .toggle-password:hover {
+    color: #FFD600;
+  }
+  
+  /* Login Button */
+  .login-btn {
+    padding: 12px;
+    background-color: #FFD600;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background-color: #FFC107;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(255, 213, 0, 0.3);
+  }
+  
+  /* Bottom Links */
+  .bottom-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .bottom-links a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .bottom-links a:hover {
+    color: #FFD600;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+    
+    .bottom-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
